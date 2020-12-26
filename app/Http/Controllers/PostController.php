@@ -27,6 +27,7 @@ class PostController extends Controller
      */
     public function create()
     {
+        dd(123123213);
         return view('posts.create');
     }
 
