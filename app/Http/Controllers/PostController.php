@@ -14,7 +14,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        //feature1
+       //feature2
+       //feature1
         return view('posts.index');
     }
 
