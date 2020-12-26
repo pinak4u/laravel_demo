@@ -14,9 +14,7 @@ class PostController extends Controller
      */
     public function index()
     {
-       //feature1
-       //feature2
-       //feature3 added
+
         return view('posts.index');
     }
 
@@ -27,7 +25,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        dd(123123213);
+
         return view('posts.create');
     }
 
