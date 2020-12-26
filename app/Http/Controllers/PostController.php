@@ -14,7 +14,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        //
+        //feature-nested comment
         return view('posts.index');
     }
 
@@ -25,7 +25,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        //feature-nested comment
         return view('posts.create');
     }
 
