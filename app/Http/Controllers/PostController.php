@@ -15,8 +15,7 @@ class PostController extends Controller
     public function index()
     {
 
-       //feature comment
-       //feature-nested comment
+        //feature3 added
        return view('posts.index');
     }
 
